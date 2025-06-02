@@ -16,3 +16,10 @@ Updated with the following:
 - Cleaner fallsAsleep function logic
 - Each function includes resolve/reject logic
 - The doSummerChores function includes a .then() chain that passes (name) through the chain, which ends in a final .catch, which includes a final error message in the form of another template literal.
+
+Async and Await Version:
+Updated with the following:
+- Removed some redundancies with the resolves/console.logs
+- Created an asynchronous function and passed name as an argument.
+- Turned the result of each chore into a variable and used await to order their execution.
+- Wrapped everything in a try/catch for error handling.
